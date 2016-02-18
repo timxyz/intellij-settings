@@ -6,10 +6,16 @@
           <State>
             <id />
           </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Android</id>
+            <id>Code style issuesJavaScript</id>
           </State>
         </selected-state>
       </profile-state>
