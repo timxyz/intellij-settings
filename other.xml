@@ -28,6 +28,20 @@
         </selected-state>
       </profile-state>
     </entry>
+    <entry key="Tim">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
     <entry key="tim">
       <profile-state>
         <expanded-state>
