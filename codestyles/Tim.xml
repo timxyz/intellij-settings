@@ -110,7 +110,7 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
-    <option name="RIGHT_MARGIN" value="120" />
+    <option name="RIGHT_MARGIN" value="160" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="ELSE_ON_NEW_LINE" value="true" />
     <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
