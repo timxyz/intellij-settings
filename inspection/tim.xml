@@ -1,5 +1,7 @@
 <inspections profile_name="tim" version="1.0">
   <option name="myName" value="tim" />
+  <inspection_tool class="AbstractMethodOverridesAbstractMethod" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AbstractMethodOverridesConcreteMethod" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="DanglingJavadoc" enabled="true" level="DOCUMENTATION" enabled_by_default="true" />
   <inspection_tool class="DefaultFileTemplate" enabled="true" level="DOCUMENTATION" enabled_by_default="true">
     <option name="CHECK_FILE_HEADER" value="true" />
@@ -60,6 +62,10 @@
     <option name="loggerFactoryMethodName" value="getLogger,getLogger,getLog,getLogger" />
   </inspection_tool>
   <inspection_tool class="MissingDeprecatedAnnotation" enabled="true" level="DOCUMENTATION" enabled_by_default="true" />
+  <inspection_tool class="MissingOverrideAnnotation" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreObjectMethods" value="false" />
+    <option name="ignoreAnonymousClassMethods" value="false" />
+  </inspection_tool>
   <inspection_tool class="MissingPackageInfo" enabled="true" level="DOCUMENTATION" enabled_by_default="true" />
   <inspection_tool class="MissingReturn" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MissingSwitchCase" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -73,6 +79,8 @@
   <inspection_tool class="OCUnusedMacroInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PackageDotHtmlMayBePackageInfo" enabled="true" level="DOCUMENTATION" enabled_by_default="true" />
   <inspection_tool class="PackageInfoWithoutPackage" enabled="true" level="DOCUMENTATION" enabled_by_default="true" />
+  <inspection_tool class="ParameterTypePreventsOverriding" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ProblematicVarargsMethodOverride" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ResourceNotFoundInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SignednessMismatch" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SimplifiableEqualsExpression" enabled="true" level="WARNING" enabled_by_default="true" />
