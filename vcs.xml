@@ -14,8 +14,12 @@
           <option name="url" value="git@codebasehq.com:3sidedcube/trocaire/android-client-2016.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@codebasehq.com:3sidedcube/charity-white-label/charitykitdemo.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Code/" />
+    <option name="cloneParentDir" value="$USER_HOME$/Code/charitykit" />
   </component>
 </application>
