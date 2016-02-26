@@ -432,6 +432,10 @@
       <option name="ENABLED" value="true" />
     </filter>
   </component>
+  <component name="NodeLocalInterpreterManager">
+    <node-interpreter path="$USER_HOME$/.nvm/versions/node/v4.1.0/bin/node" version="4.1.0" last-modified="1442463984000" />
+    <node-interpreter path="$USER_HOME$/.nvm/versions/node/v5.6.0/bin/node" version="5.6.0" last-modified="1455034589000" />
+  </component>
   <component name="PersistenceGenerationSettings">
     <option name="addToUnit" value="true" />
     <option name="entitySuffix" value="" />
