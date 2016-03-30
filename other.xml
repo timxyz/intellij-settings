@@ -172,7 +172,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>ParameterTypePreventsOverriding</id>
+            <id>AndroidLintUnusedIds</id>
           </State>
         </selected-state>
       </profile-state>
