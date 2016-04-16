@@ -34,9 +34,6 @@
             <id>General</id>
           </State>
           <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
             <id>Java</id>
           </State>
           <State>
@@ -57,7 +54,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Code quality toolsJavaScript</id>
+            <id>GeneralJavaScript</id>
           </State>
         </selected-state>
       </profile-state>
