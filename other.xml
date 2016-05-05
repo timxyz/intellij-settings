@@ -89,6 +89,9 @@
             <id />
           </State>
           <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
             <id>Java</id>
           </State>
           <State>
@@ -97,7 +100,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Threading issuesJava</id>
+            <id>StringEqualsIgnoreCase</id>
           </State>
         </selected-state>
       </profile-state>
@@ -142,6 +145,9 @@
           </State>
           <State>
             <id>Encapsulation issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
           </State>
           <State>
             <id>J2ME issuesJava</id>
@@ -197,7 +203,21 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Spelling</id>
+            <id>Internationalization issuesJava</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+    <entry key="Tim (copy)">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
           </State>
         </selected-state>
       </profile-state>
