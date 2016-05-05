@@ -1,5 +1,5 @@
-<inspections profile_name="Project Default" version="1.0">
-  <option name="myName" value="Project Default" />
+<inspections profile_name="Tim" version="1.0">
+  <option name="myName" value="Tim" />
   <option name="myLocal" value="true" />
   <inspection_tool class="AbstractClassNamingConvention" enabled="false" level="TYPO" enabled_by_default="false">
     <option name="m_minLength" value="1" />
