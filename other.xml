@@ -89,9 +89,6 @@
             <id />
           </State>
           <State>
-            <id>Internationalization issuesJava</id>
-          </State>
-          <State>
             <id>Java</id>
           </State>
           <State>
@@ -100,7 +97,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>StringEqualsIgnoreCase</id>
+            <id>Threading issuesJava</id>
           </State>
         </selected-state>
       </profile-state>
