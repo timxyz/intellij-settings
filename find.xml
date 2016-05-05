@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Module 'library'" />
-    <option name="defaultScopeName" value="Module 'library'" />
+    <option name="customScope" value="Module 'react'" />
+    <option name="defaultScopeName" value="Module 'react'" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Module 'library'" />
+    <option name="SEARCH_SCOPE" value="Module 'react'" />
   </component>
 </application>
