@@ -10,6 +10,9 @@
             <id>Android</id>
           </State>
           <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
             <id>Assignment issuesJava</id>
           </State>
           <State>
@@ -28,6 +31,9 @@
             <id>Control flow issuesJava</id>
           </State>
           <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
             <id>Error handlingJava</id>
           </State>
           <State>
@@ -38,6 +44,12 @@
           </State>
           <State>
             <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
           </State>
           <State>
             <id>Potentially confusing code constructsJavaScript</id>
