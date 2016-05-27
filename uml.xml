@@ -1,0 +1,12 @@
+<application>
+  <component name="UmlConfiguration">
+    <option name="categories">
+      <map>
+        <entry id="DATABASE" categories="Key columns;Columns" />
+        <entry id="DIFF" categories="Details" />
+        <entry id="Flash" categories="One To One;One To Many;Usages;Self-links;Create" />
+        <entry id="JAVA" categories="Show One To One;Show One To Many;Others" />
+      </map>
+    </option>
+  </component>
+</application>
