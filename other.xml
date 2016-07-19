@@ -10,6 +10,9 @@
             <id>Android</id>
           </State>
           <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
             <id>Assignment issuesJava</id>
           </State>
           <State>
@@ -28,6 +31,9 @@
             <id>Control flow issuesJava</id>
           </State>
           <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
             <id>Error handlingJava</id>
           </State>
           <State>
@@ -40,6 +46,12 @@
             <id>JavaScript</id>
           </State>
           <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
             <id>Potentially confusing code constructsJavaScript</id>
           </State>
           <State>
@@ -49,12 +61,15 @@
             <id>Spelling</id>
           </State>
           <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
             <id>XPath</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>GeneralJavaScript</id>
+            <id>Threading issuesJava</id>
           </State>
         </selected-state>
       </profile-state>
@@ -75,6 +90,160 @@
         <selected-state>
           <State>
             <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>ActionScript specificJavaScript</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Language Injection</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>FunctionWithMultipleReturnPointsJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+    <entry key="Project Default (copy)">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Java</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+    <entry key="Tim">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Java</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+    <entry key="Tim (copy)">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+    <entry key="Tim2">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Java</id>
           </State>
         </selected-state>
       </profile-state>
@@ -175,69 +344,14 @@
       </profile-state>
     </entry>
   </component>
-  <component name="DebuggerSettings">
-    <option name="TRACING_FILTERS_ENABLED" value="true" />
-    <option name="FORCE_CLASSIC_VM" value="true" />
-    <option name="SKIP_SYNTHETIC_METHODS" value="true" />
-    <option name="SKIP_CLASSLOADERS" value="true" />
-    <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAsk" />
-    <option name="COMPILE_BEFORE_HOTSWAP" value="true" />
-    <filter>
-      <option name="PATTERN" value="com.sun.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="java.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="javax.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="org.omg.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="sun.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="jdk.internal.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="junit.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="com.intellij.rt.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="com.yourkit.runtime.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="com.springsource.loaded.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="org.springsource.loaded.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="javassist.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="org.apache.webbeans.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="com.ibm.ws.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v5.6.0/bin/node">
+      <version-cache version="5.6.0" last-modified="1455034589000" />
+      <npm-package value="$USER_HOME$/.nvm/versions/node/v5.6.0/lib/node_modules/npm" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v4.1.0/bin/node">
+      <version-cache version="4.1.0" last-modified="1442463984000" />
+    </local-interpreter>
   </component>
   <component name="NodeLocalInterpreterManager">
     <node-interpreter path="$USER_HOME$/.nvm/versions/node/v4.1.0/bin/node" version="4.1.0" last-modified="1442463984000" />
