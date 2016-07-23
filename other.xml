@@ -243,6 +243,9 @@
             <id>GeneralJavaScript</id>
           </State>
           <State>
+            <id>Groovy</id>
+          </State>
+          <State>
             <id>HTML</id>
           </State>
           <State>
@@ -283,6 +286,9 @@
           </State>
           <State>
             <id>Spelling</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
           </State>
           <State>
             <id>Threading issuesJava</id>
