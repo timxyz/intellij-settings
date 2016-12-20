@@ -1,7 +1,6 @@
 <application>
   <component name="NotificationConfiguration">
     <notification groupId="Android XML code style notification" displayType="NONE" shouldLog="false" />
-    <notification groupId="Settings Error" shouldLog="false" />
     <notification groupId="Unindexed maven repositories gradle detection" displayType="NONE" shouldLog="false" />
   </component>
 </application>
