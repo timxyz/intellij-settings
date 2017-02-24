@@ -5,6 +5,7 @@
       <mapping pattern=".flowconfig" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping ext="mp4" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
