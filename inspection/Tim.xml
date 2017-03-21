@@ -1,4 +1,4 @@
-<profile version="1.0">
+<inspections profile_name="Tim" version="1.0">
   <option name="myName" value="Tim" />
   <inspection_tool class="AbstractClassNamingConvention" enabled="false" level="TYPO" enabled_by_default="false">
     <option name="m_minLength" value="1" />
@@ -67,7 +67,7 @@
   <inspection_tool class="BigDecimalEquals" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BigDecimalLegacyMethod" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="BooleanMethodIsAlwaysInverted" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-  <inspection_tool class="BooleanParameter" enabled="false" level="UNUSED ENTRY" enabled_by_default="false">
+  <inspection_tool class="BooleanParameter" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="onlyReportMultiple" value="true" />
   </inspection_tool>
   <inspection_tool class="BooleanVariableAlwaysNegated" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
@@ -497,4 +497,4 @@
     <option name="ADD_SERVLET_TO_ENTRIES" value="true" />
     <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
   </inspection_tool>
-</profile>
+</inspections>
