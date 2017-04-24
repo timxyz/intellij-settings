@@ -3,9 +3,7 @@
     <option name="customScope" value="Module 'Codebase'" />
     <option name="defaultScopeName" value="Module 'Codebase'" />
     <option name="localCaseSensitive" value="true" />
-    <option name="regularExpressions" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Module 'Codebase'" />
   </component>
 </application>
