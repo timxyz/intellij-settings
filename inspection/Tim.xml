@@ -1,4 +1,4 @@
-<inspections profile_name="Tim" version="1.0">
+<profile version="1.0">
   <option name="myName" value="Tim" />
   <inspection_tool class="AbstractClassNamingConvention" enabled="false" level="TYPO" enabled_by_default="false">
     <option name="m_minLength" value="1" />
@@ -19,6 +19,7 @@
   <inspection_tool class="AnonymousClassVariableHidesContainingMethodVariable" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AnonymousInnerClassMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ArrayEquality" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ArrayInDataClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AssertWithSideEffects" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AssignmentResultUsedJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AssignmentToCatchBlockParameter" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -133,13 +134,16 @@
   <inspection_tool class="ConstantMathCall" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="Convert2Lambda" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="Convert2MethodRef" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConvertLambdaToReference" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConvertReferenceToLambda" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConvertTryFinallyToUseCall" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConvertTwoComparisonsToRangeCheck" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CopyWithoutNamedArguments" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="DateToString" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="DefaultAnnotationParam" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="DefaultNotLastCaseInSwitch" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="DefaultNotLastCaseInSwitchJS" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-  <inspection_tool class="Deprecation" enabled="true" level="WEAK WARNING" enabled_by_default="true">
-    <option name="IGNORE_INSIDE_DEPRECATED" value="true" />
-  </inspection_tool>
+  <inspection_tool class="Deprecation" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="DialogTitleCapitalization" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="DoubleBraceInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="DoubleCheckedLocking" enabled="true" level="WARNING" enabled_by_default="true">
@@ -250,7 +254,6 @@
   <inspection_tool class="ListIndexOfReplaceableByContains" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="LiteralAsArgToStringEquals" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LoggerInitializedWithForeignClass" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="loggerClassName" value="org.apache.log4j.Logger,org.slf4j.LoggerFactory,org.apache.commons.logging.LogFactory,java.util.logging.Logger" />
     <option name="loggerFactoryMethodName" value="getLogger,getLogger,getLog,getLogger" />
   </inspection_tool>
   <inspection_tool class="LoopConditionNotUpdatedInsideLoop" enabled="true" level="WARNING" enabled_by_default="true">
@@ -343,6 +346,7 @@
     <option name="ignoreObscureOperators" value="false" />
   </inspection_tool>
   <inspection_tool class="ReplaceAssignmentWithOperatorAssignmentJS" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ReplaceWithOperatorAssignment" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ResultOfObjectAllocationIgnored" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="ResultSetIndexZero" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ReturnOfCollectionField" enabled="true" level="WARNING" enabled_by_default="true">
@@ -356,6 +360,7 @@
   <inspection_tool class="SimplifiableBooleanExpression" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="SimplifiableConditionalExpression" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="SimplifiableEqualsExpression" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="SimplifyBooleanWithConstants" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SizeReplaceableByIsEmpty" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="SleepWhileHoldingLock" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SocketResource" enabled="true" level="WARNING" enabled_by_default="true">
@@ -435,6 +440,7 @@
   <inspection_tool class="UnnecessaryExplicitNumericCast" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="UnnecessaryFullyQualifiedName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="m_ignoreJavadoc" value="false" />
+    <option name="ignoreInModuleStatements" value="true" />
   </inspection_tool>
   <inspection_tool class="UnnecessaryInterfaceModifier" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="UnnecessaryLocalVariable" enabled="true" level="WEAK WARNING" enabled_by_default="true">
@@ -467,6 +473,7 @@
   <inspection_tool class="UnusedLabel" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="UnusedParameters" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="UnusedReturnValue" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="UsePropertyAccessSyntax" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UtilityClassWithPublicConstructor" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="UtilityClassWithoutPrivateConstructor" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="ignorableAnnotations">
@@ -497,4 +504,4 @@
     <option name="ADD_SERVLET_TO_ENTRIES" value="true" />
     <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
   </inspection_tool>
-</inspections>
+</profile>
