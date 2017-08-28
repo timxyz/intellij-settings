@@ -4,6 +4,7 @@
       <mapping ext="otf" type="Native" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="background_blue" type="PLAIN_TEXT" />
       <mapping pattern=".flowconfig" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping ext="mp4" type="PLAIN_TEXT" />
