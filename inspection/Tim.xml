@@ -135,7 +135,7 @@
   <inspection_tool class="Convert2Lambda" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="Convert2MethodRef" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="ConvertLambdaToReference" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ConvertReferenceToLambda" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConvertReferenceToLambda" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ConvertTryFinallyToUseCall" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConvertTwoComparisonsToRangeCheck" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CopyWithoutNamedArguments" enabled="true" level="WARNING" enabled_by_default="true" />
