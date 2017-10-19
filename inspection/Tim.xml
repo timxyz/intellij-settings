@@ -145,6 +145,7 @@
   <inspection_tool class="DefaultNotLastCaseInSwitchJS" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="Deprecation" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="DialogTitleCapitalization" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="DivideByZeroJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="DoubleBraceInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="DoubleCheckedLocking" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreOnVolatileVariables" value="false" />
@@ -206,6 +207,11 @@
     <option name="REPORT_INDEXED_LOOP" value="true" />
     <option name="ignoreUntypedCollections" value="false" />
   </inspection_tool>
+  <inspection_tool class="ForLoopReplaceableByWhileJS" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_ignoreLoopsWithoutConditions" value="false" />
+  </inspection_tool>
+  <inspection_tool class="ForLoopThatDoesntUseLoopVariableJS" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="FunctionWithInconsistentReturnsJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="Guava" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="HibernateResource" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="insideTryAllowed" value="false" />
@@ -219,6 +225,7 @@
     <option name="suggestIntSwitches" value="false" />
     <option name="suggestEnumSwitches" value="false" />
   </inspection_tool>
+  <inspection_tool class="IfStatementWithIdenticalBranchesJS" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="IgnoreCoverEntry" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="IgnoreDuplicateEntry" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="IgnoreUnusedEntry" enabled="false" level="UNUSED ENTRY" enabled_by_default="false" />
@@ -292,7 +299,9 @@
   <inspection_tool class="MultipleTopLevelClassesInFile" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="MultipleTypedDeclaration" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NegatedConditionalExpression" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="NegatedConditionalExpressionJS" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="NegatedEqualityExpression" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="NegatedIfStatementJS" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="NestedAssignment" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NestedAssignmentJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NestedSynchronizedStatement" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -303,12 +312,14 @@
   <inspection_tool class="NonFinalFieldInEnum" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="NonFinalStaticVariableUsedInClassInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonFinalUtilityClass" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonShortCircuitBooleanExpressionJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonStaticFinalLogger" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="loggerClassName" value="" />
   </inspection_tool>
   <inspection_tool class="NonSynchronizedMethodOverridesSynchronizedMethod" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="NullThrown" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="NumericToString" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ObjectAllocationIgnoredJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ObjectToString" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ObsoleteCollection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="ignoreRequiredObsoleteCollectionTypes" value="true" />
@@ -400,6 +411,7 @@
   <inspection_tool class="SyntaxError" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="TailRecursion" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="TextLabelInSwitchStatement" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="TextLabelInSwitchStatementJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThisEscapedInConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThreadLocalNotStaticFinal" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThreadPriority" enabled="true" level="WEAK WARNING" enabled_by_default="true" />

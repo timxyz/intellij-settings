@@ -50,6 +50,7 @@
   <option name="WRAP_COMMENTS" value="true" />
   <JSCodeStyleSettings>
     <option name="OBJECT_LITERAL_WRAP" value="2" />
+    <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
   </JSCodeStyleSettings>
   <JavaCodeStyleSettings>
     <option name="ANNOTATION_PARAMETER_WRAP" value="2" />
