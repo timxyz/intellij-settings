@@ -8,6 +8,8 @@
       <mapping pattern="background_blue" type="PLAIN_TEXT" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".flowconfig" type="PLAIN_TEXT" />
+      <mapping pattern=".env.production.kiosk.android" type="PLAIN_TEXT" />
+      <mapping pattern=".env.staging.kiosk.android" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping ext="mp4" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
