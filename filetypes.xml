@@ -10,6 +10,7 @@
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".flowconfig" type="PLAIN_TEXT" />
       <mapping pattern=".env.production.kiosk.android" type="PLAIN_TEXT" />
+      <mapping pattern="P00297+0CFF86AA+N000004+3FA4D656" type="PLAIN_TEXT" />
       <mapping pattern=".env.staging.kiosk.android" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping ext="mp4" type="PLAIN_TEXT" />
